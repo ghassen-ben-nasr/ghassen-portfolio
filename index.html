@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabkha Express</title>
+  <link rel="icon" type="image/png" href="assets/Logo/logoo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+
+    <div class="header-left">
+
+      <!-- TABKHA MENU -->
+      <div class="tabkha-menu">
+        <div class="tabkha-icon" tabindex="0">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="tabkha-list">
+          <li class="filtre-box">
+          <a id="filtre">Filtrer les Box</a>
+          <div id="filtre-menu" class="filtre-menu">
+            
+            <b id="type">Type</b>
+            <button id="show-all">Tout</button>
+            <button id="show-entree">Entrée</button>
+            <button id="show-plat">Plat</button>
+            <button id="show-dessert">Dessert</button>
+
+            <hr>
+
+            <b id="temps">Temps</b>
+            <button id="t5">5 min</button>
+            <button id="t10">10 min</button>
+            <button id="t15">15 min</button>
+            <button id="t20">20 min</button>
+            <button id="t30">30+ min</button>
+
+          </div>
+        </li>
+          <li><a href="#" id="help">Aide</a></li>
+          <li><a href="#" id="contact">Contactez nous</a></li>
+          <div id="contact-popup" class="popup">
+            <div class="popup-box">
+              <h2 id="contact2">Contactez-nous</h2>
+              <p>Email : bennasrghassen1@gmail.com</p>
+              <p>Tel : 29 200 238</p>
+              <p>Adresse : 10 Rue des Fatimides, Cite Riadh, Sousse</p><br>
+              <hr>
+              <a href="https://www.facebook.com/gaston.bn.yfz.4" target="_blank">Facebook</a><br>
+              <a href="https://wa.me/21629809964" target="_blank">WhatsApp</a>
+              <br><br>
+              <button id="closeContact">Fermer</button>
+            </div>
+          </div>
+        </ul>
+      </div>
+
+      <!-- LOGO -->
+      <div class="logo">
+        <img src="assets/Logo/TabkhaExpress.png" alt="TabkhaExpress">
+      </div>
+    </div>
+
+    <!-- RECHERCHE -->
+    <div class="search-box">
+      <input type="text" placeholder="Rechercher une box..." id="rech">
+    </div>
+
+    <!-- LOG/SIGN -->
+    <div class="user-actions">
+      <a href="#" class="login" id="log">Log in</a>
+      <a href="#" class="signup" id="sign">Sign up</a>
+
+      <!-- LANGUAGE SELECTOR -->
+      <div class="language-selector">
+        <button class="current-lang" id="current-lang">
+          <img src="assets/icons/fr.jfif" id="current-flag">
+          <span id="current-text">FR</span>
+        </button>
+
+        <ul class="lang-list">
+          <li>
+            <a href="#" id="lang-fr">
+              <img src="assets/icons/fr.jfif"> Français
+            </a>
+          </li>
+          <li>
+            <a href="#" id="lang-en">
+              <img src="assets/icons/en.jfif"> English
+            </a>
+          </li>
+          <li>
+            <a href="#" id="lang-dz">
+              <img src="assets/icons/tn.jfif"> Darja
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="hero-content">
+      <img src="assets/Logo/Logo.png" class="hero-logo">
+      <div>
+        <h1 id="title">
+          Cuisiner sans savoir cuisiner
+        </h1>
+        <p id="subtitle">
+          Une box avec tous les ingrédients + une recette guidée.
+          Aucun achat exterieur à faire.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="categories">
+    <div class="category" id="etudiant">Étudiant</div>
+    <div class="category" id="camping">Camping</div>
+    <div class="category" id="ramadan">Ramadan</div>
+    <div class="category" id="aidfitr">Aïd Fitr</div>
+    <div class="category" id="aidodhha">Aïd Odhha</div>
+    <div class="category" id="mouled">Mouled Nabaoui</div>
+    <div class="category" id="achoura">Achoura</div>
+    <div class="category" id="nouvne">Nouveau-né</div>
+    <div class="category" id="marriage">Mariage</div>
+    <div class="category" id="boxperso">Box personnalisée</div>
+  </section>
+
+  <!-- BOXES -->
+  <section class="boxes">
+    <h2 id="nosbox">Nos Box Repas</h2><br>
+
+    <div class="box-list">
+
+      <!-- 1 Soupe -->
+      <article class="box box-item" data-time="15" data-name="soupe chorba shorba 7sou hsou" data-type="entree">
+      <div class="card">
+        <div class="card-inner">
+
+            <div class="card-front">
+              <img src="assets/images/soupe.jfif">
+              <h3 id="soupe1">Soupe</h3>
+              <p id="soupe2">15 min • Facile</p>
+              <div class="btn-row">
+                <button id="soupevoir" class="voir-btn">Voir la Box</button>
+                <button class="cart-add">🛒</button>
+              </div>
+            </div>
+
+            <div class="card-back">
+              <h3 id="soupe3">Soupe</h3>
+              <ul class="ingredients">
+                <li id="soupepoulet">Poulet</li>
+                <li id="soupeonion">Oignon</li>
+                <li id="soupetomate">Tomates</li>
+                <li id="soupehuile">Huile</li>
+                <li id="soupepoischiche">Celeri</li>
+                <li id="soupesel">Sel</li>
+                <li id="soupepoivre">Poivre</li>
+                <li>Harissa</li>
+                <li id="soupekorkom">Curcuma</li>
+                <li id="soupekarwia">Carvi</li>
+              </ul>
+              <button id="soupefermer" class="voir-btn close-btn">Fermer</button>
+            </div>
+
+          </div>
+        </div>
+      </article>
+
+      <!-- 2 Brik -->
+      <article class="box box-item" data-time="10" data-name="brik brika" data-type="entree">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/brik.jfif">
+      <h3 id="brik1">Brik</h3>
+      <p id="brik2">10 min • Facile</p>
+      <div class="btn-row">
+        <button id="brikvoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3 id="brik3">Brik</h3>
+      <ul class="ingredients">
+      <li>Malsouka</li>
+      <li id="brikoeuf">Oeuf</li>
+      <li>Thon</li>
+      <li id="brikbatata">Pomme de terre</li>
+      <li id="brikfromage">Fromage</li>
+      <li id="brikonion">Oignon</li>
+      <li id="brikpersil">Persil</li>
+      <li id="briksel">Sel</li>
+      <li id="brikpoivre">Poivre</li>
+      <li id="brikhuile">Huile</li>
+      </ul>
+      <button  id="brikfermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 3 Tajine -->
+      <article class="box box-item" data-time="20" data-name="tajine" data-type="entree">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/tajin.jfif">
+      <h3>Tajine</h3>
+      <p id="tajine1">20 min • Facile</p>
+      <div class="btn-row">
+        <button id="tajinevoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Tajine</h3>
+      <ul class="ingredients">
+      <li id="tajinepoulet">Poulet</li>
+      <li id="tajinevinde">Viande</li>
+      <li id="tajineoeuf">Oeuf</li>
+      <li id="tajinebatata">Pomme de terre</li>
+      <li id="tajinefromage">Fromage</li>
+      <li id="tajineonion">Oignon</li>
+      <li id="tajinehuile">Huile</li>
+      <li id="tajinesel">Sel</li>
+      <li id="tajinepoivre">Poivre</li>
+      <li id="tajinekorkom">Curcuma</li>
+      <li id="tajinepersil">Persil</li>
+      </ul>
+      <button id="tajinefermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 4 Salade mechouia -->
+      <article class="box box-item" data-time="10" data-name="salade salad slata mechouia michouia mechwia michwia grille grilled" data-type="entree">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/slata mechouia.jfif">
+      <h3 id="salademch1">Salade grillée</h3>
+      <p id="salademch2">10 min • Facile</p>
+      <div class="btn-row">
+        <button id="salademchvoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3 id="salademch3">Salade grillée</h3>
+      <ul class="ingredients">
+      <li id="salademchpoivron">Poivrons</li>
+      <li id="salademchtomate">Tomates</li>
+      <li id="salademchail">Ail</li>
+      <li id="salademchhuile">Huile</li>
+      <li>Thon</li>
+      <li id="salademchoeuf">Oeufs</li>
+      <li id="salademcholive">Olives</li>
+      <li id="salademchsel">Sel</li>
+      <li id="salademchpoivre">Poivre</li>
+      <li id="salademchpiment">Oignon</li>
+      <li id="salademchcitron">Carvi</li>
+      </ul>
+      <button id="salademchfermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 5 Salade tunisienne -->
+      <article class="box box-item" data-time="10" data-name="salade salad slata tunisienne tunisian tounsia tounsiya tounsya" data-type="entree">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/slata tounsia.jfif">
+      <h3 id="saladetun1">Salade tunisienne</h3>
+      <p id="saladetun2">10 min • Facile</p>
+      <div class="btn-row">
+        <button id="saladetunvoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3 id="saladetun3">Salade tunisienne</h3>
+      <ul class="ingredients">
+      <li id="saladetuntomate">Tomates</li>
+      <li id="saladetunfakous">Concombre</li>
+      <li id="saladetunonion">Oignon</li>
+      <li>Thon</li>
+      <li id="saladetunoeuf">Oeufs</li>
+      <li id="saladetunolive">Olives</li>
+      <li id="saladetunhuile">Huile</li>
+      <li id="saladetuncitron">Citron</li>
+      <li id="saladetunsel">Sel</li>
+      <li id="saladetunpoivre">Poivre</li>
+      </ul>
+      <button id="saladetunfermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 6 Ojja -->
+      <article class="box box-item" data-time="20" data-name="ojja 3jja ijja oja 3ja ija" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/ojja.jfif">
+      <h3 id="ojja1">Ojja</h3>
+      <p id="ojja2">20 min • Facile</p>
+      <div class="btn-row">
+        <button id="ojjavoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3 id="ojja3">Ojja</h3>
+      <ul class="ingredients">
+      <li id="ojjaoeuf">Oeufs</li>
+      <li id="ojjatomate">Tomate</li>
+      <li>Harissa</li>
+      <li id="ojjahuile">Huile</li>
+      <li id="ojjaail">Ail</li>
+      <li id="ojjapiment">Piment</li>
+      <li id="ojjaonion">Oignon</li>
+      <li id="ojjasel">Sel</li>
+      <li id="ojjapoivre">Poivre</li>
+      <li id="ojjamerguez">Merguez</li>
+      </ul>
+      <button id="ojjafermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 7 Pasta -->
+      <article class="box box-item" data-time="25" data-name="pasta pate ma9rouna makrouna ma9arouna makarouna" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/pasta.jfif">
+      <h3 id="pasta1">Pates</h3>
+      <p id="pasta2">25 min • Facile</p>
+      <div class="btn-row">
+        <button id="pastavoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3 id="pasta3">Pates</h3>
+      <ul class="ingredients">
+      <li id="pastapate">Pates</li>
+      <li id="pastatomate">Tomate</li>
+      <li id="pastasel">Sel</li>
+      <li id="pastapoivre">Poivre</li>
+      <li id="pastahuile">Huile</li>
+      <li id="pastaonion">Piment</li>
+      <li id="pastaail">Ail</li>
+      <li>Harissa</li>
+      <li id="pastalarwia">Carvi</li>
+      <li id="pastakorkom">Curcuma</li>
+      <li id="pastaviande">Viande</li>
+      <li id="pastapoulet">Poullet</li>
+      </ul>
+      <button id="pastafermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 8 Wrap -->
+      <article class="box box-item" data-time="15" data-name="wrap mlewi mlawi milawi milewi" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/wrap.jfif">
+      <h3 id="wrap1">Wrap</h3>
+      <p id="wrap2">15 min • Facile</p>
+      <div class="btn-row">
+        <button id="wrapvoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3 id="wrap3">Wrap</h3>
+      <ul class="ingredients">
+      <li>Tortilla</li>
+      <li id="wrapsalade">Salade</li>
+      <li id="wrapsauce">Sauce</li>
+      <li id="wraptomate">Tomate</li>
+      <li>Thon</li>
+      <li id="wrappoulet">Poulet</li>
+      <li id="wrapescalope">Escalope</li>
+      <li id="wrapformage">Formage</li>
+      <li id="wrapsel">Sel</li>
+      <li id="wrappoivre">Poivre</li>
+      </ul>
+      <button id="wrapfermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 9 Couscous -->
+      <article class="box box-item" data-time="40" data-name="couscous kosksi cosksi kouskous" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/couscous.jfif">
+      <h3 id="couscous1">Couscous</h3>
+      <p id="couscous2">40 min • Facile</p>
+      <div class="btn-row">
+        <button id="couscousvoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3 id="couscous3">Couscous</h3>
+      <ul class="ingredients">
+      <li id="couscoussemoule">Semoule</li>
+      <li id="couscousbatata">Pomme de Terre</li>
+      <li id="couscouscarotte">Carotte</li>
+      <li id="couscousonion">Onion</li>
+      <li id="couscoustomate">Tomate</li>
+      <li id="couscouspiment">Piment</li>
+      <li id="couscoushuile">Huile</li>
+      <li>Harissa</li>
+      <li id="couscouskorkom">Curcuma</li>
+      <li id="couscouskarwia">Carvi</li>
+      <li id="couscoussel">Sel</li>
+      <li id="couscouspoivre">Poivre</li>
+      <li id="couscouspoulet">Poulet</li>
+      <li id="couscousviande">Viande</li>
+      </ul>
+      <button id="couscousfermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 10 Chapati -->
+      <article class="box box-item" data-time="15" data-name="chapati chappati chapatti chappatti" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/chapati.jpg">
+      <h3 id="chapati1">Chapati</h3>
+      <p id="chapati2">15 min • Facile</p>
+      <div class="btn-row">
+        <button id="chapativoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3 id="chapati3">Chapati</h3>
+      <ul class="ingredients">
+      <li>Chapatti</li>
+      <li id="chapatisauce">Sauce</li>
+      <li>Harissa</li>
+      <li>Thon</li>
+      <li>Salami</li>
+      <li>Jomban</li>
+      <li id="chapatiformage">Formage</li>
+      <li id="chapatisel">Sel</li>
+      <li id="chapatipoivre">Poivre</li>
+      <li id="chapatioeuf">Oeuf</li>
+      <li id="chapatimaadnous">Persil</li>
+      </ul>
+      <button id="chapatifermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 11 Rouz -->
+      <article class="box box-item" data-time="35" data-name="rouz riz jerbien jerbi jerbian rice jrbi" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/rouz.jfif">
+      <h3 id="rouz1">Riz Jerbien</h3>
+      <p id="rouz2">35 min • Facile</p>
+      <div class="btn-row">
+        <button id="rouzvoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3 id="rouz3">Riz Jerbien</h3>
+      <ul class="ingredients">
+      <li id="rouzriz">Riz</li>
+      <li id="rouzpoulet">Poulet</li>
+      <li id="rouzviande">Viande</li>
+      <li id="rouzpoischiche">Pois chiches</li>
+      <li id="rouzbatata">Persil</li>
+      <li id="rouzcarotte">Carotte</li>
+      <li id="rouzonion">Oignon</li>
+      <li id="rouztomate">Tomate</li>
+      <li id="rouzhuile">Huile</li>
+      <li id="rouzsel">Sel</li>
+      <li id="rouzpoivre">Poivre</li>
+      <li>Harissa</li>
+      <li id="rouzkorkom">Curcuma</li>
+      <li id="rouzkarwia">Carvi</li>
+      </ul>
+      <button id="rouzfermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 12 Steak -->
+      <article class="box box-item" data-time="20" data-name="steak l7am michwi mechwi michoui mechoui" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/steak.jfif">
+      <h3 id="steak1">Steak</h3>
+      <p id="steak2">20 min • Facile</p>
+      <div class="btn-row">
+        <button id="steakvoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3 id="steak3">Steak</h3>
+      <ul class="ingredients">
+      <li id="steakviande">Viande</li>
+      <li id="steaksel">Sel</li>
+      <li id="steakpoivre">Poivre</li>
+      <li id="steakhuile">Huile</li>
+      <li id="steakbeurre">Beurre</li>
+      <li id="steakail">Ail</li>
+      </ul>
+      <button id="steakfermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 13 Pizza -->
+      <article class="box box-item" data-time="15" data-name="pizza piza" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/pizza.jfif">
+      <h3>Pizza</h3>
+      <p id="pizza">15 min • Facile</p>
+      <div class="btn-row">
+        <button id="pizzavoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Pizza</h3>
+      <ul class="ingredients">
+      <li id="pizzapate">Pâte à pizza</li>
+      <li id="pizzasauce">Sauce tomate</li>
+      <li id="pizzafromage">Fromage</li>
+      <li id="pizzatomate">Tomate</li>
+      <li id="pizzapoivron">Poivron</li>
+      <li id="pizzaonion">Oignon</li>
+      <li id="pizzaolive">Olives</li>
+      <li>Thon</li>
+      <li>Jambon</li>
+      <li id="pizzahuile">Huile</li>
+      <li id="pizzasel">Sel</li>
+      <li id="pizzapoivre">Poivre</li>
+      </ul>
+      <button id="pizzafermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 14 Escaloppe -->
+      <article class="box box-item" data-time="15" data-name="escaloppe scaloppe scalope escalope" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/escalope.jfif">
+      <h3 id="escalope1">Escalope</h3>
+      <p id="escalope2">15 min • Facile</p>
+      <div class="btn-row">
+        <button id="escalopevoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3 id="escalope3">Escalope</h3>
+      <ul class="ingredients">
+      <li id="escalopeescalope">Escalope</li>
+      <li id="escalopesel">Sel</li>
+      <li id="escalopepoivre">Poivre</li>
+      <li id="escalopeail">Ail</li>
+      <li id="escalopehuile">Huile</li>
+      <li id="escalopeoeuf">Oeuf</li>
+      <li id="escalopechapelure">Chapelure</li>
+      <li id="escalopefarine">Farine</li>
+      <li id="escalopecitron">Citron</li>
+      </ul>
+      <button id="escalopefermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 15 Lablebi -->
+      <article class="box box-item" data-time="20" data-name="lablebi lblebi lablabi lblabi" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/lablebi.jfif">
+      <h3>Lablebi</h3>
+      <p id="lablebi1">20 min • Facile</p>
+      <div class="btn-row">
+        <button id="lablebivoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Lablebi</h3>
+      <ul class="ingredients">
+      <li id="lablebipoischiche">Pois chiches</li>
+      <li id="lablebiail">Ail</li>
+      <li>Harissa</li>
+      <li id="lablebihuile">Huile</li>
+      <li id="lablebisel">Sel</li>
+      <li id="lablebipoivre">Poivre</li>
+      <li id="lablebipain">Pain</li>
+      <li id="lablebioeuf">Oeuf</li>
+      <li>Thon</li>
+      <li id="lablebicitron">Citron</li>
+      </ul>
+
+      <button id="lablebifermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 16 Chakchouka -->
+      <article class="box box-item" data-time="20" data-name="chakchouka shakchouka shakshouka chakshouka" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/chkchouka.jfif">
+      <h3>Chakchouka</h3>
+      <p id="chakchouka1">20 min • Facile</p>
+      <div class="btn-row">
+        <button id="chakchoukavoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Chakchouka</h3>
+      <ul class="ingredients">
+      <li id="chakchoukatomate">Tomate</li>
+      <li id="chakchoukapoivron">Poivron</li>
+      <li id="chakchoukaonion">Oignon</li>
+      <li id="chakchoukaail">Ail</li>
+      <li id="chakchoukaoeuf">Oeufs</li>
+      <li id="chakchoukahuile">Huile</li>
+      <li id="chakchoukasel">Sel</li>
+      <li id="chakchoukapoivre">Poivre</li>
+      <li>Harissa</li>
+      <li id="chakchoukapiment">Salk</li>
+      </ul>
+      <button id="chakchoukafermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 17 Mloukhia -->
+      <article class="box box-item" data-time="45" data-name="mloukhia mloukia mlou5ia miloukhia miloukia milou5ia" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/mloukhia.jfif">
+      <h3>Mloukhia</h3>
+      <p id="mloukhia1">45 min • Facile</p>
+      <div class="btn-row">
+        <button id="mloukhiavoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Mloukhia</h3>
+      <ul class="ingredients">
+      <li>Mloukhia</li>
+      <li id="mloukhiaviande">Viande</li>
+      <li id="mloukhiahuile">Huile</li>
+      <li id="mloukhiaail">Ail</li>
+      <li id="mloukhiarand">Feuille de laurier</li>
+      <li id="mloukhiasel">Sel</li>
+      <li id="mloukhiapoivre">Poivre</li>
+      <li>Harissa</li>
+      <li id="mloukhiakarwia">Carvi</li>
+      </ul>
+      <button id="mloukhiafermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 18 Qleya -->
+      <article class="box box-item" data-time="15" data-name="qleya 9leya qleyya 9leyya" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/kleya.jfif">
+      <h3>Qleya</h3>
+      <p id="qleya1">15 min • Facile</p>
+      <div class="btn-row">
+        <button id="qleyavoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Qleya</h3>
+      <ul class="ingredients">
+      <li id="qleyafoie">Foie</li>
+      <li id="qleyaviande">Viande</li>
+      <li id="qleyahuile">Huile</li>
+      <li id="qleyaail">Ail</li>
+      <li id="qleyasel">Sel</li>
+      <li id="qleyapoivre">Poivre</li>
+      <li id="qleyakorkom">Curcuma</li>
+      <li>Harissa</li>
+      <li id="qleyapiment">Oignon</li>
+      </ul>
+      <button id="qleyafermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 19 Marka -->
+      <article class="box box-item" data-time="20" data-name="marka mar9a mrka mr9a" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/marka.jpg">
+      <h3>Marka</h3>
+      <p id="marka1">20 min • Facile</p>
+      <div class="btn-row">
+        <button id="markavoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Marka</h3>
+      <ul class="ingredients">
+      <li id="markaviande">Viande</li>
+      <li id="markapoulet">Poulet</li>
+      <li id="markaonion">Oignon</li>
+      <li id="markatomate">Tomate</li>
+      <li id="markahuile">Huile</li>
+      <li id="markabatata">Pomme de terre</li>
+      <li id="markacarotte">Carotte</li>
+      <li id="markapoischiche">Pois chiches</li>
+      <li id="markaail">Ail</li>
+      <li id="markasel">Sel</li>
+      <li id="markapoivre">Poivre</li>
+      <li>Harissa</li>
+      <li id="markakorkom">Curcuma</li>
+      </ul>
+      <button id="markafermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 20 Lazania -->
+      <article class="box box-item" data-time="25" data-name="lazania" data-type="plat">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/lazania.avif">
+      <h3>Lazania</h3>
+      <p id="lazania1">25 min • Facile</p>
+      <div class="btn-row">
+        <button id="lazaniavoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Lazania</h3>
+      <ul class="ingredients">
+      <li>Pâtes à lasagne</li>
+      <li id="lazaniaviande">Viande hachée</li>
+      <li id="lazaniasauce">Sauce tomate</li>
+      <li id="lazaniaonion">Oignon</li>
+      <li id="lazaniaail">Ail</li>
+      <li id="lazaniafromage">Fromage râpé</li>
+      <li id="lazanialait">Lait</li>
+      <li id="lazaniabeurre">Beurre</li>
+      <li id="lazaniafarine">Farine</li>
+      <li id="lazaniahuile">Huile</li>
+      <li id="lazaniasel">Sel</li>
+      <li id="lazaniapoivre">Poivre</li>
+      </ul>
+      <button id="lazaniafermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 21 Qolla -->
+      <article class="box box-item" data-time="5" data-name="qolla qola 9olla 9ola" data-type="dessert">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/fruit sec.jfif">
+      <h3>Qolla</h3>
+      <p id="qolla1">5 min • Facile</p>
+      <div class="btn-row">
+        <button id="qollavoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Qolla</h3>
+      <ul class="ingredients">
+      <li id="qollaamande">Amandes</li>
+      <li id="qollanoisette">Noisettes</li>
+      <li id="qollapistache">Pistaches</li>
+      <li id="qollamiel">Miel</li>
+      <li id="qollabonbon">Bonbon</li>
+      <li id="qollafruitsec">Fruit sec</li>
+      </ul>
+      <button id="qollafermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 22 Zrir -->
+      <article class="box box-item" data-time="15" data-name="zrir" data-type="dessert">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/zrir.jfif">
+      <h3>Zrir</h3>
+      <p id="zrir1">15 min • Facile</p>
+      <div class="btn-row">
+        <button id="zrirvoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Zrir</h3>
+      <ul class="ingredients">
+      <li id="zrirsesame">Graines de sésame</li>
+      <li id="zriramande">Amandes</li>
+      <li id="zrirnoisette">Noisettes</li>
+      <li id="zrirpistache">Pistaches</li>
+      <li id="zrirmiel">Miel</li>
+      <li id="zrirhuile">Huile</li>
+      <li id="zrirsucre">Sucre</li>
+      </ul>
+      <button id="zrirfermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 23 Zgougou -->
+      <article class="box box-item" data-time="20" data-name="zgougou z9ou9ou" data-type="dessert">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/zgougou.jfif">
+      <h3>Zgougou</h3>
+      <p id="zgougou1">20 min • Facile</p>
+      <div class="btn-row">
+        <button id="zgougouvoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Zgougou</h3>
+      <ul class="ingredients">
+      <li>Zgougou</li>
+      <li id="zgougoufarine">Farine</li>
+      <li id="zgougousucre">Sucre</li>
+      <li id="zgougoulait">Lait</li>
+      <li id="zgougoucreme">Crème pâtissière</li>
+      <li id="zgougouamande">Amandes</li>
+      <li id="zgougounoisette">Noisettes</li>
+      <li id="zgougoupistache">Pistaches</li>
+      <li id="zgougoupignon">Pignons</li>
+      </ul>
+      <button id="zgougoufermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+  
+      <!-- 24 Assida -->
+      <article class="box box-item" data-time="20" data-name="assida 3assida 3ssida asida 3asida 3sida" data-type="dessert">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/assida.jfif">
+      <h3>Assida</h3>
+      <p id="assida1">20 min • Facile</p>
+      <div class="btn-row">
+        <button id="assidavoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Assida</h3>
+      <ul class="ingredients">
+      <li id="assidasemoule">Farine</li>
+      <li id="assidasel">Sel</li>
+      <li id="assidahuile">Huile</li>
+      <li id="assidasucre">Sucre</li>
+      <li id="assidamiel">Miel</li>
+      <li id="assidadatte">Dattes</li>
+      </ul>
+      <button id="assidafermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 25 Bsissa -->
+      <article class="box box-item" data-time="10" data-name="bsissa bsisa" data-type="dessert">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/bsissa.jfif">
+      <h3>Bsissa</h3>
+      <p id="bsissa1">10 min • Facile</p>
+      <div class="btn-row">
+        <button id="bsissavoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Bsissa</h3>
+      <ul class="ingredients">
+      <li>Bsissa</li>
+      <li id="bsissahuile">Huile</li>
+      <li id="bsissasucre">Sucre</li>
+      <li id="bsissadatte">Dattes</li>
+      <li id="bsissaamande">Amandes</li>
+      <li id="bsissanoisette">Noisettes</li>
+      </ul>
+      <button id="bsissafermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 26 Masfouf -->
+      <article class="box box-item" data-time="15" data-name="masfouf" data-type="dessert">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/masfouf.jfif">
+      <h3>Masfouf</h3>
+      <p id="masfouf1">15 min • Facile</p>
+      <div class="btn-row">
+        <button id="masfoufvoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Masfouf</h3>
+      <ul class="ingredients">
+      <li id="masfoufcouscous">Couscous</li>
+      <li id="masfoufhuile">Huile</li>
+      <li id="masfoufsucre">Sucre</li>
+      <li id="masfoufdatte">Dattes</li>
+      <li id="masfoufamande">Amandes</li>
+      <li id="masfouflait">Lait</li>
+      <li id="masfoufsel">Sel</li>
+      </ul>
+      <button id="masfouffermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      <!-- 27 Khobzet Hwe -->
+      <article class="box box-item" data-time="10" data-name="khobzet hwe 5obzet hwa khobzit 5obzit 5obzt khobzt" data-type="dessert">
+      <div class="card">
+      <div class="card-inner">
+
+      <div class="card-front">
+      <img src="assets/images/khobzet hwe.jfif">
+      <h3>Khobzet Hwe</h3>
+      <p id="khobzethwe1">10 min • Facile</p>
+      <div class="btn-row">
+        <button id="khobzethwevoir" class="voir-btn">Voir la Box</button>
+        <button class="cart-add">🛒</button>
+      </div>
+      </div>
+
+      <div class="card-back">
+      <h3>Khobzet Hwe</h3>
+      <ul class="ingredients">
+      <li id="khobzethwebiscuit">Biscuit</li>
+      <li id="khobzethwecaffe">Caffe</li>
+      <li id="khobzethwecreme">Creme chantille</li>
+      <li id="khobzethwelait">Lait</li>
+      <li id="khobzethwefruitsec">Fruit sec</li>
+      </ul>
+      <button id="khobzethwefermer" class="voir-btn close-btn">Fermer</button>
+      </div>
+
+      </div>
+      </div>
+      </article>
+
+      </div>
+  </section>
+
+  <!-- FONCTIONNEMENT -->
+  <section class="steps">
+    <h2 id="com">Comment ça marche ?</h2>
+    <div class="step-list">
+      <div class="step" id="stp1">Ingrédients prêts</div>
+      <div class="step" id="stp2">Suivez les étapes</div>
+      <div class="step" id="stp3">Régalez-vous</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p id="fin">© 2026 TabkhaExpress – Projet étudiant – Ghassen Ben Nasr</p>
+  </footer>
+
+  <!-- LOGIN -->
+  <div id="login-popup" class="popup">
+    <div class="popup-box">
+      <h2>Login</h2>
+      <input type="text" id="login-user" placeholder="Username">
+      <input type="password" id="login-pass" placeholder="Password">
+      <button id="login-btn">Login</button>
+      <p>Pas de compte ? <a href="#" id="go-signup">S'inscrire</a></p>
+      <button id="closeLogin" class="close-btn">Close</button>
+    </div>
+  </div>
+
+  <!-- SIGNUP -->
+  <div id="signup-popup" class="popup">
+    <div class="popup-box">
+      <h2>Sign Up</h2>
+      <input type="text" id="signup-user" placeholder="Username">
+      <input type="password" id="signup-pass" placeholder="Password">
+      <input type="password" id="signup-pass2" placeholder="Confirm Password">
+      <button id="signup-btn">Sign Up</button>
+      <p>Déjà un compte ? <a href="#" id="go-login">Login</a></p>
+      <button id="closeSignup" class="close-btn">Close</button>
+    </div>
+  </div>
+
+  <button id="cartBtn" class="cart-btn">
+  🛒 <span id="cart-count">0</span>
+</button>
+
+  <!-- PANIER -->
+  <div id="cartPopup" class="popup">
+    <div class="popup-box">
+      <h2>Mon panier</h2>
+
+      <ul id="cartItems"></ul>
+
+      <p><b>Total :</b> <span id="total">0</span> dt</p>
+
+      <button id="closeCart">Fermer</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
