@@ -761,7 +761,7 @@ fr.onclick = (e) => {
   nosbox.textContent = "Nos Box Repas";
 
   soupe1.textContent = "Soupe";
-  soupe2.textContent = "15 min • Facile";
+  soupe2.textContent = "15 min • Facile • 10 DT";
   soupevoir.textContent = "Voir la Box";
   soupe3.textContent = "Soupe";
   soupepoulet.textContent = "Poulet";
@@ -775,7 +775,7 @@ fr.onclick = (e) => {
   soupekarwia.textContent = "Carvi";
   soupefermer.textContent = "Fermer";
 
-  brik2.textContent = "10 min • Facile";
+  brik2.textContent = "10 min • Facile • 10 DT";
   brikvoir.textContent = "Voir la Box";
   brikoeuf.textContent = "Oeuf";
   brikbatata.textContent = "Pomme de terre";
@@ -787,7 +787,7 @@ fr.onclick = (e) => {
   brikhuile.textContent = "Huile";
   brikfermer.textContent = "Fermer";
 
-  tajine1.textContent = "20 min • Facile";
+  tajine1.textContent = "20 min • Moyen • 10 DT";
   tajinevoir.textContent = "Voir la Box";
   tajinepoulet.textContent = "Poulet";
   tajinevinde.textContent = "Viande";
@@ -803,7 +803,7 @@ fr.onclick = (e) => {
   tajinefermer.textContent = "Fermer";
 
   salademch1.textContent = "Salade grillée";
-  salademch2.textContent = "10 min • Facile";
+  salademch2.textContent = "10 min • Facile • 10 DT";
   salademchvoir.textContent = "Voir la Box";
   salademch3.textContent = "Salade grillée";
   salademchpoivron.textContent = "Poivrons";
@@ -819,7 +819,7 @@ fr.onclick = (e) => {
   salademchfermer.textContent = "Fermer";
 
   saladetun1.textContent = "Salade tunisienne";
-  saladetun2.textContent = "10 min • Facile";
+  saladetun2.textContent = "10 min • Facile • 10 DT";
   saladetunvoir.textContent = "Voir la Box";
   saladetun3.textContent = "Salade tunisienne";
   saladetuntomate.textContent = "Tomates";
@@ -834,7 +834,7 @@ fr.onclick = (e) => {
   saladetunfermer.textContent = "Fermer";
 
   ojja1.textContent = "Ojja";
-  ojja2.textContent = "20 min • Facile";
+  ojja2.textContent = "20 min • Facile • 10 DT";
   ojjavoir.textContent = "Voir la Box";
   ojja3.textContent = "Ojja";
   ojjaoeuf.textContent = "Oeufs";
@@ -849,7 +849,7 @@ fr.onclick = (e) => {
   ojjafermer.textContent = "Fermer";
 
   pasta1.textContent = "Pates";
-  pasta2.textContent = "25 min • Facile";
+  pasta2.textContent = "25 min • Facile • 10 DT";
   pastavoir.textContent = "Voir la Box";
   pasta3.textContent = "Pates";
   pastapate.textContent = "Pates";
@@ -865,7 +865,7 @@ fr.onclick = (e) => {
   pastapoulet.textContent = "Poullet";
   pastafermer.textContent = "Fermer";
 
-  wrap2.textContent = "15 min • Facile";
+  wrap2.textContent = "15 min • Facile • 10 DT";
   wrapvoir.textContent = "Voir la Box";
   wrapsalade.textContent = "Salade";
   wrapsauce.textContent = "Sauce";
@@ -878,7 +878,7 @@ fr.onclick = (e) => {
   wrapfermer.textContent = "Fermer";
 
   couscous1.textContent = "Couscous";
-  couscous2.textContent = "40 min • Facile";
+  couscous2.textContent = "40 min • Difficile • 10 DT";
   couscousvoir.textContent = "Voir la Box";
   couscous3.textContent = "Couscous";
   couscoussemoule.textContent = "Semoule";
@@ -896,7 +896,7 @@ fr.onclick = (e) => {
   couscousviande.textContent = "Viande";
   couscousfermer.textContent = "Fermer";
 
-  chapati2.textContent = "15 min • Facile";
+  chapati2.textContent = "15 min • Facile • 10 DT";
   chapativoir.textContent = "Voir la Box";
   chapatisauce.textContent = "Sauce";
   chapatiformage.textContent = "Formage";
@@ -907,7 +907,7 @@ fr.onclick = (e) => {
   chapatifermer.textContent = "Fermer";
 
   rouz1.textContent = "Riz Jerbien";
-  rouz2.textContent = "35 min • Facile";
+  rouz2.textContent = "35 min • Moyen • 10 DT";
   rouzvoir.textContent = "Voir la Box";
   rouz3.textContent = "Riz Jerbien";
   rouzriz.textContent = "Riz";
@@ -926,7 +926,7 @@ fr.onclick = (e) => {
   rouzfermer.textContent = "Fermer";
 
   steak1.textContent = "Steak";
-  steak2.textContent = "20 min • Facile";
+  steak2.textContent = "20 min • Facile • 10 DT";
   steakvoir.textContent = "Voir la Box";
   steak3.textContent = "Steak";
   steakviande.textContent = "Viande";
@@ -937,7 +937,7 @@ fr.onclick = (e) => {
   steakail.textContent = "Ail";
   steakfermer.textContent = "Fermer";
 
-  pizza.textContent = "15 min • Facile";
+  pizza.textContent = "15 min • Facile • 10 DT";
   pizzavoir.textContent = "Voir la Box";
   pizzapate.textContent = "Pâte à pizza";
   pizzasauce.textContent = "Sauce tomate";
@@ -952,7 +952,7 @@ fr.onclick = (e) => {
   pizzafermer.textContent = "Fermer";
 
   escalope1.textContent = "Escalope";
-  escalope2.textContent = "15 min • Facile";
+  escalope2.textContent = "15 min • Facile • 10 DT";
   escalopevoir.textContent = "Voir la Box";
   escalope3.textContent = "Escalope";
   escalopeescalope.textContent = "Escalope";
@@ -966,7 +966,7 @@ fr.onclick = (e) => {
   escalopecitron.textContent = "Citron";
   escalopefermer.textContent = "Fermer";
 
-  lablebi1.textContent = "20 min • Facile";
+  lablebi1.textContent = "20 min • Moyen • 10 DT";
   lablebivoir.textContent = "Voir la Box";
   lablebipoischiche.textContent = "Pois chiches";
   lablebiail.textContent = "Ail";
@@ -978,7 +978,7 @@ fr.onclick = (e) => {
   lablebicitron.textContent = "Citron";
   lablebifermer.textContent = "Fermer";
 
-  chakchouka1.textContent = "20 min • Facile";
+  chakchouka1.textContent = "20 min • Facile • 10 DT";
   chakchoukavoir.textContent = "Voir la Box";
   chakchoukatomate.textContent = "Tomate";
   chakchoukapoivron.textContent = "Poivron";
@@ -991,7 +991,7 @@ fr.onclick = (e) => {
   chakchoukapiment.textContent = "Salk";
   chakchoukafermer.textContent = "Fermer";
 
-  mloukhia1.textContent = "45 min • Facile";
+  mloukhia1.textContent = "45 min • Difficile • 10 DT";
   mloukhiavoir.textContent = "Voir la Box";
   mloukhiaviande.textContent = "Viande";
   mloukhiahuile.textContent = "Huile";
@@ -1002,7 +1002,7 @@ fr.onclick = (e) => {
   mloukhiakarwia.textContent = "Carvi";
   mloukhiafermer.textContent = "Fermer";
 
-  qleya1.textContent = "15 min • Facile";
+  qleya1.textContent = "15 min • Moyen • 10 DT";
   qleyavoir.textContent = "Voir la Box";
   qleyafoie.textContent = "Foie";
   qleyaviande.textContent = "Viande";
@@ -1015,7 +1015,7 @@ fr.onclick = (e) => {
   qleyapiment.textContent = "Oignon";
   qleyafermer.textContent = "Fermer";
 
-  marka1.textContent = "20 min • Facile";
+  marka1.textContent = "20 min • Moyen • 10 DT";
   markavoir.textContent = "Voir la Box";
   markaviande.textContent = "Viande";
   markapoulet.textContent = "Poulet";
@@ -1031,7 +1031,7 @@ fr.onclick = (e) => {
   markakorkom.textContent = "Curcuma";
   markafermer.textContent = "Fermer";
 
-  lazania1.textContent = "25 min • Facile";
+  lazania1.textContent = "25 min • Difficile • 10 DT";
   lazaniavoir.textContent = "Voir la Box";
   lazaniaviande.textContent = "Viande hachée";
   lazaniasauce.textContent = "Sauce tomate";
@@ -1046,7 +1046,7 @@ fr.onclick = (e) => {
   lazaniapoivre.textContent = "Poivre";
   lazaniafermer.textContent = "Fermer";
 
-  qolla1.textContent = "5 min • Facile";
+  qolla1.textContent = "5 min • Facile • 10 DT";
   qollavoir.textContent = "Voir la Box";
   qollaamande.textContent = "Amandes";
   qollanoisette.textContent = "Noisettes";
@@ -1056,7 +1056,7 @@ fr.onclick = (e) => {
   qollafruitsec.textContent = "Fruit sec";
   qollafermer.textContent = "Fermer";
 
-  zrir1.textContent = "15 min • Facile";
+  zrir1.textContent = "15 min • Moyen • 10 DT";
   zrirvoir.textContent = "Voir la Box";
   zrirsesame.textContent = "Graines de sésame";
   zriramande.textContent = "Amandes";
@@ -1067,7 +1067,7 @@ fr.onclick = (e) => {
   zrirsucre.textContent = "Sucre";
   zrirfermer.textContent = "Fermer";
 
-  zgougou1.textContent = "20 min • Facile";
+  zgougou1.textContent = "20 min • Moyen • 10 DT";
   zgougouvoir.textContent = "Voir la Box";
   zgougoufarine.textContent = "Farine";
   zgougousucre.textContent = "Sucre";
@@ -1079,7 +1079,7 @@ fr.onclick = (e) => {
   zgougoupignon.textContent = "Pignons";
   zgougoufermer.textContent = "Fermer";
 
-  assida1.textContent = "20 min • Facile";
+  assida1.textContent = "20 min • Moyen • 10 DT";
   assidavoir.textContent = "Voir la Box";
   assidasemoule.textContent = "Farine";
   assidasel.textContent = "Sel";
@@ -1089,7 +1089,7 @@ fr.onclick = (e) => {
   assidadatte.textContent = "Dattes";
   assidafermer.textContent = "Fermer";
 
-  bsissa1.textContent = "10 min • Facile";
+  bsissa1.textContent = "10 min • Facile • 10 DT";
   bsissavoir.textContent = "Voir la Box";
   bsissahuile.textContent = "Huile";
   bsissasucre.textContent = "Sucre";
@@ -1098,7 +1098,7 @@ fr.onclick = (e) => {
   bsissanoisette.textContent = "Noisettes";
   bsissafermer.textContent = "Fermer";
 
-  masfouf1.textContent = "15 min • Facile";
+  masfouf1.textContent = "15 min • Facile • 10 DT";
   masfoufvoir.textContent = "Voir la Box";
   masfoufcouscous.textContent = "Couscous";
   masfoufhuile.textContent = "Huile";
@@ -1109,7 +1109,7 @@ fr.onclick = (e) => {
   masfoufsel.textContent = "Sel";
   masfouffermer.textContent = "Fermer";
 
-  khobzethwe1.textContent = "10 min • Facile";
+  khobzethwe1.textContent = "10 min • Facile • 10 DT";
   khobzethwevoir.textContent = "Voir la Box";
   khobzethwebiscuit.textContent = "Biscuit";
   khobzethwecaffe.textContent = "Caffe";
@@ -1175,8 +1175,9 @@ en.onclick = (e) => {
   boxperso.textContent = "Custom box";
 
   nosbox.textContent = "Our Meal Boxes";
+
   soupe1.textContent = "Soup";
-  soupe2.textContent = "15 min • Easy";
+  soupe2.textContent = "15 min • Easy • 10 DT";
   soupevoir.textContent = "View Box";
   soupe3.textContent = "Soup";
   soupepoulet.textContent = "Chicken";
@@ -1190,7 +1191,7 @@ en.onclick = (e) => {
   soupekarwia.textContent = "Caraway";
   soupefermer.textContent = "Close";
 
-  brik2.textContent = "10 min • Easy";
+  brik2.textContent = "10 min • Easy • 10 DT";
   brikvoir.textContent = "View Box";
   brikoeuf.textContent = "Egg";
   brikbatata.textContent = "Potato";
@@ -1202,7 +1203,7 @@ en.onclick = (e) => {
   brikhuile.textContent = "Oil";
   brikfermer.textContent = "Close";
 
-  tajine1.textContent = "20 min • Easy";
+  tajine1.textContent = "20 min • Middle • 10 DT";
   tajinevoir.textContent = "View Box";
   tajinepoulet.textContent = "Chicken";
   tajinevinde.textContent = "Meat";
@@ -1218,7 +1219,7 @@ en.onclick = (e) => {
   tajinefermer.textContent = "Close";
 
   salademch1.textContent = "Grilled salad";
-  salademch2.textContent = "10 min • Easy";
+  salademch2.textContent = "10 min • Easy • 10 DT";
   salademchvoir.textContent = "View Box";
   salademch3.textContent = "Grilled salad";
   salademchpoivron.textContent = "Peppers";
@@ -1234,7 +1235,7 @@ en.onclick = (e) => {
   salademchfermer.textContent = "Close";
 
   saladetun1.textContent = "Tunisian salad";
-  saladetun2.textContent = "10 min • Easy";
+  saladetun2.textContent = "10 min • Easy • 10 DT";
   saladetunvoir.textContent = "View Box";
   saladetun3.textContent = "Tunisian salad";
   saladetuntomate.textContent = "Tomatoes";
@@ -1249,7 +1250,7 @@ en.onclick = (e) => {
   saladetunfermer.textContent = "Close";
 
   ojja1.textContent = "Ojja";
-  ojja2.textContent = "20 min • Easy";
+  ojja2.textContent = "20 min • Easy • 10 DT";
   ojjavoir.textContent = "View Box";
   ojja3.textContent = "Ojja";
   ojjaoeuf.textContent = "Eggs";
@@ -1264,7 +1265,7 @@ en.onclick = (e) => {
   ojjafermer.textContent = "Close";
 
   pasta1.textContent = "Pasta";
-  pasta2.textContent = "25 min • Easy";
+  pasta2.textContent = "25 min • Easy • 10 DT";
   pastavoir.textContent = "View Box";
   pasta3.textContent = "Pasta";
   pastapate.textContent = "Pasta";
@@ -1280,7 +1281,7 @@ en.onclick = (e) => {
   pastapoulet.textContent = "Chicken";
   pastafermer.textContent = "Close";
 
-  wrap2.textContent = "15 min • Easy";
+  wrap2.textContent = "15 min • Easy • 10 DT";
   wrapvoir.textContent = "View Box";
   wrapsalade.textContent = "Salad";
   wrapsauce.textContent = "Sauce";
@@ -1293,7 +1294,7 @@ en.onclick = (e) => {
   wrapfermer.textContent = "Close";
 
   couscous1.textContent = "Couscous";
-  couscous2.textContent = "40 min • Easy";
+  couscous2.textContent = "40 min • Hard • 10 DT";
   couscousvoir.textContent = "View Box";
   couscous3.textContent = "Couscous";
   couscoussemoule.textContent = "Semolina";
@@ -1311,7 +1312,7 @@ en.onclick = (e) => {
   couscousviande.textContent = "Meat";
   couscousfermer.textContent = "Close";
 
-  chapati2.textContent = "15 min • Easy";
+  chapati2.textContent = "15 min • Easy • 10 DT";
   chapativoir.textContent = "View Box";
   chapatisauce.textContent = "Sauce";
   chapatiformage.textContent = "Cheese";
@@ -1322,7 +1323,7 @@ en.onclick = (e) => {
   chapatifermer.textContent = "Close";
 
   rouz1.textContent = "Jerbian rice";
-  rouz2.textContent = "35 min • Easy";
+  rouz2.textContent = "35 min • Middle • 10 DT";
   rouzvoir.textContent = "View Box";
   rouz3.textContent = "Jerbian rice";
   rouzriz.textContent = "Rice";
@@ -1341,7 +1342,7 @@ en.onclick = (e) => {
   rouzfermer.textContent = "Close";
 
   steak1.textContent = "Steak";
-  steak2.textContent = "20 min • Easy";
+  steak2.textContent = "20 min • Easy • 10 DT";
   steakvoir.textContent = "View Box";
   steak3.textContent = "Steak";
   steakviande.textContent = "Meat";
@@ -1352,7 +1353,7 @@ en.onclick = (e) => {
   steakail.textContent = "Garlic";
   steakfermer.textContent = "Close";
 
-  pizza.textContent = "15 min • Easy";
+  pizza.textContent = "15 min • Easy • 10 DT";
   pizzavoir.textContent = "View Box";
   pizzapate.textContent = "Pizza dough";
   pizzasauce.textContent = "Tomato sauce";
@@ -1367,7 +1368,7 @@ en.onclick = (e) => {
   pizzafermer.textContent = "Close";
 
   escalope1.textContent = "Escalope";
-  escalope2.textContent = "15 min • Easy";
+  escalope2.textContent = "15 min • Easy • 10 DT";
   escalopevoir.textContent = "View Box";
   escalope3.textContent = "Escalope";
   escalopeescalope.textContent = "Escalope";
@@ -1381,7 +1382,7 @@ en.onclick = (e) => {
   escalopecitron.textContent = "Lemon";
   escalopefermer.textContent = "Close";
 
-  lablebi1.textContent = "20 min • Easy";
+  lablebi1.textContent = "20 min • Middle • 10 DT";
   lablebivoir.textContent = "View Box";
   lablebipoischiche.textContent = "Chickpeas";
   lablebiail.textContent = "Garlic";
@@ -1393,7 +1394,7 @@ en.onclick = (e) => {
   lablebicitron.textContent = "Lemon";
   lablebifermer.textContent = "Close";
 
-  chakchouka1.textContent = "20 min • Easy";
+  chakchouka1.textContent = "20 min • Easy • 10 DT";
   chakchoukavoir.textContent = "View Box";
   chakchoukatomate.textContent = "Tomato";
   chakchoukapoivron.textContent = "Pepper";
@@ -1406,7 +1407,7 @@ en.onclick = (e) => {
   chakchoukapiment.textContent = "Salk";
   chakchoukafermer.textContent = "Close";
 
-  mloukhia1.textContent = "45 min • Easy";
+  mloukhia1.textContent = "45 min • Hard • 10 DT";
   mloukhiavoir.textContent = "View Box";
   mloukhiaviande.textContent = "Meat";
   mloukhiahuile.textContent = "Oil";
@@ -1417,7 +1418,7 @@ en.onclick = (e) => {
   mloukhiakarwia.textContent = "Caraway";
   mloukhiafermer.textContent = "Close";
 
-  qleya1.textContent = "15 min • Easy";
+  qleya1.textContent = "15 min • Middle • 10 DT";
   qleyavoir.textContent = "View Box";
   qleyafoie.textContent = "Liver";
   qleyaviande.textContent = "Meat";
@@ -1430,7 +1431,7 @@ en.onclick = (e) => {
   qleyapiment.textContent = "Onion";
   qleyafermer.textContent = "Close";
 
-  marka1.textContent = "20 min • Easy";
+  marka1.textContent = "20 min • Middle • 10 DT";
   markavoir.textContent = "View Box";
   markaviande.textContent = "Meat";
   markapoulet.textContent = "Chicken";
@@ -1446,7 +1447,7 @@ en.onclick = (e) => {
   markakorkom.textContent = "Turmeric";
   markafermer.textContent = "Close";
 
-  lazania1.textContent = "25 min • Easy";
+  lazania1.textContent = "25 min • Hard • 10 DT";
   lazaniavoir.textContent = "View Box";
   lazaniaviande.textContent = "Minced meat";
   lazaniasauce.textContent = "Tomato sauce";
@@ -1461,7 +1462,7 @@ en.onclick = (e) => {
   lazaniapoivre.textContent = "Pepper";
   lazaniafermer.textContent = "Close";
 
-  qolla1.textContent = "5 min • Easy";
+  qolla1.textContent = "5 min • Easy • 10 DT";
   qollavoir.textContent = "View Box";
   qollaamande.textContent = "Almonds";
   qollanoisette.textContent = "Hazelnuts";
@@ -1471,7 +1472,7 @@ en.onclick = (e) => {
   qollafruitsec.textContent = "Dried fruits";
   qollafermer.textContent = "Close";
 
-  zrir1.textContent = "15 min • Easy";
+  zrir1.textContent = "15 min • Middle • 10 DT";
   zrirvoir.textContent = "View Box";
   zrirsesame.textContent = "Sesame seeds";
   zriramande.textContent = "Almonds";
@@ -1482,7 +1483,7 @@ en.onclick = (e) => {
   zrirsucre.textContent = "Sugar";
   zrirfermer.textContent = "Close";
 
-  zgougou1.textContent = "20 min • Easy";
+  zgougou1.textContent = "20 min • Middle • 10 DT";
   zgougouvoir.textContent = "View Box";
   zgougoufarine.textContent = "Flour";
   zgougousucre.textContent = "Sugar";
@@ -1494,7 +1495,7 @@ en.onclick = (e) => {
   zgougoupignon.textContent = "Pine nuts";
   zgougoufermer.textContent = "Close";
 
-  assida1.textContent = "20 min • Easy";
+  assida1.textContent = "20 min • Middle • 10 DT";
   assidavoir.textContent = "Flour";
   assidasemoule.textContent = "Semolina";
   assidasel.textContent = "Salt";
@@ -1504,7 +1505,7 @@ en.onclick = (e) => {
   assidadatte.textContent = "Dates";
   assidafermer.textContent = "Close";
 
-  bsissa1.textContent = "10 min • Easy";
+  bsissa1.textContent = "10 min • Easy • 10 DT";
   bsissavoir.textContent = "View Box";
   bsissahuile.textContent = "Oil";
   bsissasucre.textContent = "Sugar";
@@ -1513,7 +1514,7 @@ en.onclick = (e) => {
   bsissanoisette.textContent = "Hazelnuts";
   bsissafermer.textContent = "Close";
 
-  masfouf1.textContent = "15 min • Easy";
+  masfouf1.textContent = "15 min • Easy • 10 DT";
   masfoufvoir.textContent = "View Box";
   masfoufcouscous.textContent = "Couscous";
   masfoufhuile.textContent = "Oil";
@@ -1524,7 +1525,7 @@ en.onclick = (e) => {
   masfoufsel.textContent = "Salt";
   masfouffermer.textContent = "Close";
 
-  khobzethwe1.textContent = "10 min • Easy";
+  khobzethwe1.textContent = "10 min • Easy • 10 DT";
   khobzethwevoir.textContent = "View Box";
   khobzethwebiscuit.textContent = "Biscuit";
   khobzethwecaffe.textContent = "Coffee";
@@ -1592,7 +1593,7 @@ dz.onclick = (e) => {
 
   nosbox.textContent = "Boxet lmakla";
   soupe1.textContent = "Chorba";
-  soupe2.textContent = "15 d9aye9 • Sehla";
+  soupe2.textContent = "15 d9aye9 • Sehla • 10 DT";
   soupevoir.textContent = "Chouf lbox";
   soupe3.textContent = "Chorba";
   soupepoulet.textContent = "Djej";
@@ -1606,7 +1607,7 @@ dz.onclick = (e) => {
   soupekarwia.textContent = "Karwia";
   soupefermer.textContent = "Sakker";
 
-  brik2.textContent = "10 d9aye9 • Sehla";
+  brik2.textContent = "10 d9aye9 • Sehla • 10 DT";
   brikvoir.textContent = "Chouf lbox";
   brikoeuf.textContent = "3dham";
   brikbatata.textContent = "Batata";
@@ -1618,7 +1619,7 @@ dz.onclick = (e) => {
   brikhuile.textContent = "Zit";
   brikfermer.textContent = "Sakker";
 
-  tajine1.textContent = "20 d9aye9 • Sehla";
+  tajine1.textContent = "20 d9aye9 • Metwasta • 10 DT";
   tajinevoir.textContent = "Chouf lbox";
   tajinepoulet.textContent = "Djej";
   tajinevinde.textContent = "Lham";
@@ -1634,7 +1635,7 @@ dz.onclick = (e) => {
   tajinefermer.textContent = "Sakker";
 
   salademch1.textContent = "Slata mechouia";
-  salademch2.textContent = "10 d9aye9 • Sehla";
+  salademch2.textContent = "10 d9aye9 • Sehla • 10 DT";
   salademchvoir.textContent = "Chouf lbox";
   salademch3.textContent = "Slata mechouia";
   salademchpoivron.textContent = "Felfel";
@@ -1649,7 +1650,7 @@ dz.onclick = (e) => {
   salademchfermer.textContent = "Sakker";
 
   saladetun1.textContent = "Slata tounsiya";
-  saladetun2.textContent = "10 d9aye9 • Sehla";
+  saladetun2.textContent = "10 d9aye9 • Sehla • 10 DT";
   saladetunvoir.textContent = "Chouf lbox";
   saladetun3.textContent = "Slata tounsiya";
   saladetuntomate.textContent = "Tmatim";
@@ -1664,7 +1665,7 @@ dz.onclick = (e) => {
   saladetunfermer.textContent = "Sakker";
 
   ojja1.textContent = "3jja";
-  ojja2.textContent = "20 d9aye9 • Sehla";
+  ojja2.textContent = "20 d9aye9 • Sehla • 10 DT";
   ojjavoir.textContent = "Chouf lbox";
   ojja3.textContent = "3jja";
   ojjaoeuf.textContent = "3dham";
@@ -1679,7 +1680,7 @@ dz.onclick = (e) => {
   ojjafermer.textContent = "Sakker";
 
   pasta1.textContent = "Ma9rouna";
-  pasta2.textContent = "25 d9aye9 • Sehla";
+  pasta2.textContent = "25 d9aye9 • Sehla • 10 DT";
   pastavoir.textContent = "Chouf lbox";
   pasta3.textContent = "Ma9rouna";
   pastapate.textContent = "Ma9rouna";
@@ -1695,7 +1696,7 @@ dz.onclick = (e) => {
   pastapoulet.textContent = "Djej";
   pastafermer.textContent = "Sakker";
 
-  wrap2.textContent = "15 d9aye9 • Sehla";
+  wrap2.textContent = "15 d9aye9 • Sehla • 10 DT";
   wrapvoir.textContent = "Chouf lbox";
   wrapsalade.textContent = "Slata";
   wrapsauce.textContent = "Sauce";
@@ -1708,7 +1709,7 @@ dz.onclick = (e) => {
   wrapfermer.textContent = "Sakker";
 
   couscous1.textContent = "Kosksi";
-  couscous2.textContent = "40 d9aye9 • Sehla";
+  couscous2.textContent = "40 d9aye9 • S3iba • 10 DT";
   couscousvoir.textContent = "Chouf lbox";
   couscous3.textContent = "Kosksi";
   couscoussemoule.textContent = "Smid";
@@ -1726,7 +1727,7 @@ dz.onclick = (e) => {
   couscousviande.textContent = "Lham";
   couscousfermer.textContent = "Sakker";
 
-  chapati2.textContent = "15 d9aye9 • Sehla";
+  chapati2.textContent = "15 d9aye9 • Sehla • 10 DT";
   chapativoir.textContent = "Chouf lbox";
   chapatisauce.textContent = "Sauce";
   chapatiformage.textContent = "Fromaj";
@@ -1737,7 +1738,7 @@ dz.onclick = (e) => {
   chapatifermer.textContent = "Sakker";
 
   rouz1.textContent = "Rouz jerbi";
-  rouz2.textContent = "35 d9aye9 • Sehla";
+  rouz2.textContent = "35 d9aye9 • Metwasta • 10 DT";
   rouzvoir.textContent = "Chouf lbox";
   rouz3.textContent = "Rouz jerbi";
   rouzriz.textContent = "Rouz";
@@ -1756,7 +1757,7 @@ dz.onclick = (e) => {
   rouzfermer.textContent = "Sakker";
 
   steak1.textContent = "Steak";
-  steak2.textContent = "20 d9aye9 • Sehla";
+  steak2.textContent = "20 d9aye9 • Sehla • 10 DT";
   steakvoir.textContent = "Chouf lbox";
   steak3.textContent = "Steak";
   steakviande.textContent = "Lham";
@@ -1767,7 +1768,7 @@ dz.onclick = (e) => {
   steakail.textContent = "Thoum";
   steakfermer.textContent = "Sakker";
 
-  pizza.textContent = "15 d9aye9 • Sehla";
+  pizza.textContent = "15 d9aye9 • Sehla • 10 DT";
   pizzavoir.textContent = "Chouf lbox";
   pizzapate.textContent = "3jin pizza";
   pizzasauce.textContent = "Sauce tomate";
@@ -1782,7 +1783,7 @@ dz.onclick = (e) => {
   pizzafermer.textContent = "Sakker";
 
   escalope1.textContent = "Escalope";
-  escalope2.textContent = "15 d9aye9 • Sehla";
+  escalope2.textContent = "15 d9aye9 • Sehla • 10 DT";
   escalopevoir.textContent = "Chouf lbox";
   escalope3.textContent = "Escalope";
   escalopeescalope.textContent = "Escalope";
@@ -1796,7 +1797,7 @@ dz.onclick = (e) => {
   escalopecitron.textContent = "9ares";
   escalopefermer.textContent = "Sakker";
 
-  lablebi1.textContent = "20 d9aye9 • Sehla";
+  lablebi1.textContent = "20 d9aye9 • Metwasta • 10 DT";
   lablebivoir.textContent = "Chouf lbox";
   lablebipoischiche.textContent = "Homs";
   lablebiail.textContent = "Thoum";
@@ -1808,7 +1809,7 @@ dz.onclick = (e) => {
   lablebicitron.textContent = "9ares";
   lablebifermer.textContent = "Sakker";
 
-  chakchouka1.textContent = "20 d9aye9 • Sehla";
+  chakchouka1.textContent = "20 d9aye9 • Sehla • 10 DT";
   chakchoukavoir.textContent = "Chouf lbox";
   chakchoukatomate.textContent = "Tmatim";
   chakchoukapoivron.textContent = "Felfel";
@@ -1821,7 +1822,7 @@ dz.onclick = (e) => {
   chakchoukapiment.textContent = "Salk"
   chakchoukafermer.textContent = "Sakker";
 
-  mloukhia1.textContent = "45 d9aye9 • Sehla";
+  mloukhia1.textContent = "45 d9aye9 • S3iba • 10 DT";
   mloukhiavoir.textContent = "Chouf lbox";
   mloukhiaviande.textContent = "Lham";
   mloukhiahuile.textContent = "Zit";
@@ -1832,7 +1833,7 @@ dz.onclick = (e) => {
   mloukhiakarwia.textContent = "Karwia";
   mloukhiafermer.textContent = "Sakker";
 
-  qleya1.textContent = "15 d9aye9 • Sehla";
+  qleya1.textContent = "15 d9aye9 • Metwasta • 10 DT";
   qleyavoir.textContent = "Chouf lbox";
   qleyafoie.textContent = "Kebda";
   qleyaviande.textContent = "Lham";
@@ -1844,7 +1845,7 @@ dz.onclick = (e) => {
   qleyapiment.textContent = "Bsal";
   qleyafermer.textContent = "Sakker";
 
-  marka1.textContent = "20 d9aye9 • Sehla";
+  marka1.textContent = "20 d9aye9 • Metwasta • 10 DT";
   markavoir.textContent = "Chouf lbox";
   markaviande.textContent = "Lham";
   markapoulet.textContent = "Djej";
@@ -1860,7 +1861,7 @@ dz.onclick = (e) => {
   markakorkom.textContent = "Korkom";
   markafermer.textContent = "Sakker";
 
-  lazania1.textContent = "25 d9aye9 • Sehla";
+  lazania1.textContent = "25 d9aye9 • S3iba • 10 DT";
   lazaniavoir.textContent = "Chouf lbox";
   lazaniaviande.textContent = "Lham mafroum";
   lazaniasauce.textContent = "Sauce tomate";
@@ -1875,7 +1876,7 @@ dz.onclick = (e) => {
   lazaniapoivre.textContent = "Felfel akhal";
   lazaniafermer.textContent = "Sakker";
 
-  qolla1.textContent = "5 d9aye9 • Sehla";
+  qolla1.textContent = "5 d9aye9 • Sehla • 10 DT";
   qollavoir.textContent = "Chouf lbox";
   qollaamande.textContent = "Louz";
   qollanoisette.textContent = "Noisette";
@@ -1885,7 +1886,7 @@ dz.onclick = (e) => {
   qollafruitsec.textContent = "Fwekeh jeffa";
   qollafermer.textContent = "Sakker";
 
-  zrir1.textContent = "15 d9aye9 • Sehla";
+  zrir1.textContent = "15 d9aye9 • Metwasta • 10 DT";
   zrirvoir.textContent = "Chouf lbox";
   zrirsesame.textContent = "Jeljlen";
   zriramande.textContent = "Louz";
@@ -1896,7 +1897,7 @@ dz.onclick = (e) => {
   zrirsucre.textContent = "Sokkar";
   zrirfermer.textContent = "Sakker";
 
-  zgougou1.textContent = "20 d9aye9 • Sehla";
+  zgougou1.textContent = "20 d9aye9 • Metwasta • 10 DT";
   zgougouvoir.textContent = "Chouf lbox";
   zgougoufarine.textContent = "Farina";
   zgougousucre.textContent = "Sokkar";
@@ -1908,7 +1909,7 @@ dz.onclick = (e) => {
   zgougoupignon.textContent = "Bond9";
   zgougoufermer.textContent = "Sakker";
 
-  assida1.textContent = "20 d9aye9 • Sehla";
+  assida1.textContent = "20 d9aye9 • Metwasta • 10 DT";
   assidavoir.textContent = "Chouf lbox";
   assidasemoule.textContent = "Ferina";
   assidasel.textContent = "Melh";
@@ -1918,7 +1919,7 @@ dz.onclick = (e) => {
   assidadatte.textContent = "Tmar";
   assidafermer.textContent = "Sakker";
 
-  bsissa1.textContent = "10 d9aye9 • Sehla";
+  bsissa1.textContent = "10 d9aye9 • Sehla • 10 DT";
   bsissavoir.textContent = "Chouf lbox";
   bsissahuile.textContent = "Zit";
   bsissasucre.textContent = "Sokkar";
@@ -1927,7 +1928,7 @@ dz.onclick = (e) => {
   bsissanoisette.textContent = "Noisette";
   bsissafermer.textContent = "Sakker";
 
-  masfouf1.textContent = "15 d9aye9 • Sehla";
+  masfouf1.textContent = "15 d9aye9 • Sehla • 10 DT";
   masfoufvoir.textContent = "Chouf lbox";
   masfoufcouscous.textContent = "Kosksi";
   masfoufhuile.textContent = "Zit";
@@ -1938,7 +1939,7 @@ dz.onclick = (e) => {
   masfoufsel.textContent = "Melh";
   masfouffermer.textContent = "Sakker";
 
-  khobzethwe1.textContent = "10 d9aye9 • Sehla";
+  khobzethwe1.textContent = "10 d9aye9 • Sehla • 10 DT";
   khobzethwevoir.textContent = "Chouf lbox";
   khobzethwebiscuit.textContent = "Biscuit";
   khobzethwecaffe.textContent = "9ahwa";
@@ -2171,6 +2172,10 @@ addBtns.forEach(btn => {
     cartBtn.classList.add("shake");
     setTimeout(() => cartBtn.classList.remove("shake"), 300);
   };
+});
+
+document.getElementById("buy").addEventListener("click", function() {
+    alert("Commande passée avec succès ! Attendez un appel pour confirmer la commande.");
 });
 
 cartBtn.onclick = () => cartPopup.style.display = "flex";
