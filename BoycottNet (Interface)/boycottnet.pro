@@ -1,17 +1,13 @@
-\
 QT += widgets
 CONFIG += c++17
 TARGET = boycottnet
 TEMPLATE = app
 
-SOURCES += src/main.cpp \
-           src/mainwindow.cpp \
-           src/models.cpp
+SOURCES += main.cpp \
+           mainwindow.cpp \
+           models.cpp
 
-HEADERS += src/mainwindow.h \
-           src/models.h
-
-RESOURCES += resources.qrc
-
+HEADERS += mainwindow.h \
+           models.h
 
 #DISTFILES += \ # images/palestine.jpg

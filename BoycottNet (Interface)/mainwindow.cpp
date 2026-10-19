@@ -1,4 +1,3 @@
-\
 #include "mainwindow.h"
 #include <QtWidgets>
 #include <QIcon>
