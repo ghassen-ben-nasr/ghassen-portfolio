@@ -2214,3 +2214,10 @@ document.getElementById("help").onclick = () => {
   }
 
 };
+
+// --- Fallback: les images/icones (assets) ne sont pas versionnees dans ce depot ---
+document.querySelectorAll('img').forEach(function (img) {
+  function usePlaceholder() { if (img.src.indexOf('placeholder.svg') === -1) img.src = 'assets/placeholder.svg'; }
+  img.addEventListener('error', usePlaceholder);
+  if (img.complete && img.naturalWidth === 0) usePlaceholder();
+});
