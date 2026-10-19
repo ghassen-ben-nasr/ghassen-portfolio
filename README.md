@@ -11,6 +11,14 @@ Projets étudiants et personnels (C++, Qt, web).
 | **[BoycottNet (Interface)](./BoycottNet%20(Interface))** | Version bureau avec interface graphique du projet précédent : navigation multi-pages, administration, vérification et espace culture. | C++17 · Qt Widgets |
 | **[Tabkha-Express](./Tabkha-Express)** | Site vitrine d'un service tunisien de boxes repas : 27 recettes, filtres par type et par temps, recherche, panier, interface multilingue (FR / EN / Darja). | HTML · CSS · JavaScript |
 
+## Crédits
+
+- **Stackfit** — projet réalisé en collaboration avec [@Aminehamad05](https://github.com/Aminehamad05).
+
 ## Contact
 
 - Email : bennasrghassen1@gmail.com
+
+## Licence
+
+MIT — voir [LICENSE](./LICENSE).
