@@ -1,0 +1,111 @@
+name: careerpath
+
+services:
+  # 1. Database with pgvector extension
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: careerpath-postgres
+    restart: unless-stopped
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-careerpath}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-careerpath}
+      POSTGRES_DB: ${POSTGRES_DB:-careerpath}
+    ports:
+      # Host port 5433 to avoid conflict with local Postgres
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER:-careerpath} -d $${POSTGRES_DB:-careerpath}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # 2. Ephemeral migration container (runs migrations + bootstrap then exits cleanly)
+  migration:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+      target: migration
+    container_name: careerpath-migration
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-careerpath}:${POSTGRES_PASSWORD:-careerpath}@postgres:5432/${POSTGRES_DB:-careerpath}?schema=public
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./prisma:/app/prisma:ro
+
+  # 3. Main Node.js API (runs production image stage once migrations complete)
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+      target: runner
+    container_name: careerpath-api
+    restart: unless-stopped
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-careerpath}:${POSTGRES_PASSWORD:-careerpath}@postgres:5432/${POSTGRES_DB:-careerpath}?schema=public
+      # Auth tokens can't be minted without this (API runs NODE_ENV=production,
+      # where a missing JWT_SECRET is a hard error → login/register 500).
+      # Real .env value wins; the default below is local-dev-only — override it
+      # for anything shared or demoed.
+      JWT_SECRET: ${JWT_SECRET:-local-dev-only-secret-change-me}
+      PORT: 4000
+    ports:
+      - "4000:4000"
+    depends_on:
+      migration:
+        condition: service_completed_successfully
+
+  # 4. On-demand worker tool for ad-hoc scripts
+  worker:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+      target: migration
+    container_name: careerpath-worker
+    profiles: ["tools"]
+    restart: "no"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-careerpath}:${POSTGRES_PASSWORD:-careerpath}@postgres:5432/${POSTGRES_DB:-careerpath}?schema=public
+      JWT_SECRET: ${JWT_SECRET:-local-dev-only-secret-change-me}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./scripts:/app/scripts
+      - ./db:/app/db:ro
+      - ./prisma:/app/prisma:ro
+    command: ["npx", "tsx", "scripts/review-content.ts"]
+
+  # 5. React Web SPA served by NGINX
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-/api}
+    container_name: careerpath-web
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    depends_on:
+      api:
+        condition: service_started
+
+volumes:
+  pgdata:
+    name: careerpath_pgdata
